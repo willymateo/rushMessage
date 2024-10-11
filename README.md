@@ -39,13 +39,11 @@ bun start:dev
 
 Open [http://localhost:3000](http://localhost:3000)
 
-
 ## Preview
 
 ### Web
 
 ![image](https://github.com/user-attachments/assets/258575ca-f52e-4355-bf64-ca98485bf0d0)
-
 
 ### Smarthphone
 
