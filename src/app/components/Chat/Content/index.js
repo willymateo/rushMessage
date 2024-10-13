@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 
 import { listenMessagesByChatRoomId } from "@/app/services/chatRooms";
+import { MESSAGES_CONTAINER_ID } from "../constants";
 import { Outcomming } from "./Messages/Outcomming";
 import { Incomming } from "./Messages/Incomming";
 
@@ -34,7 +35,10 @@ const Content = ({ sessionUser = {} }) => {
   }, []);
 
   return (
-    <section className="flex flex-col gap-5 flex-grow p-5 overflow-y-auto basis-1 bg-[url('/images/chat-background.svg')]">
+    <section
+      className="flex flex-col gap-5 flex-grow p-5 overflow-y-auto basis-1 bg-[url('/images/chat-background.svg')]"
+      id={MESSAGES_CONTAINER_ID}
+    >
       {messages?.map(({ id, content = "", senderUserId = null } = {}) => {
         if (sessionUser?.id === senderUserId) {
           return <Outcomming key={id} content={content} />;
