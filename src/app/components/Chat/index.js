@@ -9,7 +9,7 @@ const sessionUser = {
 
 const Chat = () => (
   <main className="flex flex-col shadow-2xl rounded-3xl max-w-[700px] w-full overflow-hidden text-slate-600">
-    <Header title="DevFest organizers" />
+    <Header title="John Doe" />
 
     <Content sessionUser={sessionUser} />
 
