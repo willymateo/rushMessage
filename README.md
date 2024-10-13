@@ -6,7 +6,8 @@ Rush Message is a real-time chat app built with Firebase Firestore. It features 
 
 You must have a `.env.local` file in the `root` of the proyect. The `.env.local` file must have the content of [.env.template](https://github.com/willymateo/portfolio/blob/main/.env.template)
 
-**Note**: Ask to an admin for the value of environment variables.
+> [!NOTE]
+> Ask to an admin for the value of environment variables.
 
 ## Setup
 
