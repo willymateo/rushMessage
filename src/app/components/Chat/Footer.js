@@ -11,7 +11,7 @@ const Footer = ({ sessionUser = {} }) => {
   const handleChange = (e) => setMessage(e?.target?.value ?? "");
 
   const handleKeyDown = (e) => {
-    if (e?.key === "Enter") {
+    if (e?.key === "Enter" && message?.length) {
       sendMessage();
       setMessage("");
 

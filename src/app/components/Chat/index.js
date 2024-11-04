@@ -3,7 +3,7 @@ import { Footer } from "./Footer";
 import { Header } from "./Header";
 
 const sessionUser = {
-  selectedChatRoomId: "vYOMpO5dOVvkiZexjwNx",
+  selectedChatRoomId: "jwXxVEdLUslqoJdE6Zsc",
   id: 1,
 };
 
