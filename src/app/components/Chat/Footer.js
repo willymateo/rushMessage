@@ -6,6 +6,8 @@ import { addMessageToChatRoomById } from "@/app/services/chatRooms";
 import { MESSAGES_CONTAINER_ID } from "./constants";
 
 const Footer = ({ sessionUser = {} }) => {
+  console.log("Footer sessionUser", sessionUser);
+  console.log("Debugging")
   const [message, setMessage] = useState("");
 
   const handleChange = (e) => setMessage(e?.target?.value ?? "");
